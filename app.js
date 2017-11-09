@@ -20,4 +20,3 @@ const userRoutes = require('./routes/userRoutes');
 app.use('/users', userRoutes);
 app.listen(port);
 
-app.use(logger(`Listening on port${port}`));
